@@ -10,7 +10,12 @@ environment:
 
 dependencies:
   amplify_core: ">=2.5.0 <2.6.0"
-  amplify_db_common_dart: ">=0.4.7 <0.5.0"
+#  amplify_db_common_dart: ">=0.4.7 <0.5.0"
+  amplify_db_common_dart:
+    git:
+      url: https://github.com/jytc666/amplify-flutter.git
+      path: packages/common/amplify_db_common_dart
+      ref: main
   async: ^2.10.0
   aws_common: ">=0.7.3 <0.8.0"
   aws_signature_v4: ">=0.6.3 <0.7.0"
