@@ -21,7 +21,12 @@ platforms:
 dependencies:
   amplify_core: ">=2.5.0 <2.6.0"
   amplify_db_common: ">=0.4.7 <0.5.0"
-  amplify_storage_s3_dart: ">=0.4.7 <0.5.0"
+#  amplify_storage_s3_dart: ">=0.4.7 <0.5.0"
+  amplify_storage_s3_dart:
+    git:
+      url: https://github.com/jytc666/amplify-flutter.git
+      path: packages/storage/amplify_storage_s3_dart
+      ref: 2e9d917915bf28f8484d7e1d7e6ebb0f932404d2
   aws_common: ">=0.7.3 <0.8.0"
   flutter:
     sdk: flutter
